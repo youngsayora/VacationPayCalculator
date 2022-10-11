@@ -1,8 +1,10 @@
+package calculator;
+
 public class VacationPayAmount {
     private final long id;
-    private final String content;
+    private final float content;
 
-    public VacationPayAmount(long id, String content) {
+    public VacationPayAmount(long id, float content) {
         this.id = id;
         this.content = content;
     }
@@ -11,7 +13,7 @@ public class VacationPayAmount {
         return id;
     }
 
-    public String getContent() {
+    public float getContent() {
         return content;
     }
 }
