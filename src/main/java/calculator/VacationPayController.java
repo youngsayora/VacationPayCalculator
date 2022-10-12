@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/calculaсte")//так было в тз
+@RequestMapping("/calculacte")//так было в тз
 public class VacationPayController {
 
 
